@@ -1,0 +1,26 @@
+*{
+    box-sizing: 0;
+    box-shadow: 0;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background: black;
+    color: #ffffff;
+ 
+}
+
+header{
+  
+    z-index: 2;
+}
+
+.fondo{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+   
+   
+}
