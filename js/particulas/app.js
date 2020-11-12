@@ -72,38 +72,38 @@ particlesJS(
           "detect_on": "canvas",
           "events": {
             "onhover": {
-              "enable": true,
+              "enable": false,
               "mode": "grab"
             },
             "onclick": {
-              "enable": true,
+              "enable": false,
               "mode": "push"
             },
-            "resize": true
+            "resize": false
           },
           "modes": {
             "grab": {
-              "distance": 400,
+              "distance": 0,
               "line_linked": {
-                "opacity": 1
+                "opacity": 0
               }
             },
             "bubble": {
-              "distance": 400,
-              "size": 40,
-              "duration": 2,
-              "opacity": 8,
-              "speed": 3
+              "distance": 0,
+              "size": 0,
+              "duration": 0,
+              "opacity": 0,
+              "speed": 0
             },
             "repulse": {
-              "distance": 200,
-              "duration": 0.4
+              "distance": 0,
+              "duration": 0
             },
             "push": {
-              "particles_nb": 4
+              "particles_nb": 0
             },
             "remove": {
-              "particles_nb": 2
+              "particles_nb": 0
             }
           }
         },
