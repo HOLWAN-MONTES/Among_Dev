@@ -13,6 +13,11 @@ body{
     
 }
 
+.fondo{
+    border:1px solid rgb(60, 255, 0);
+  
+}
+
 .titulo{
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
@@ -27,9 +32,11 @@ body{
 
 .container{
     
-    width: 215.8vh;
+    width: 215.5vh;
     position: absolute;
-    height:300vh;
+    height:110vh;
+    border:1px solid red;
+    margin-top:-40px;
 }
 
 
