@@ -19,7 +19,7 @@ body{
     color:rgb(255, 255, 255);
     z-index: 2;
     position: relative;
-    margin-top: -235%;
+    border:1px solid rgb(0, 81, 255);
     text-align: center;
     
 }
@@ -27,20 +27,23 @@ body{
 
 .container{
     
-    width: 215.8vh;
+    border:1px solid rgb(9, 255, 0);
     position: absolute;
-    height:300vh;
+    margin-left: 30%;
+    width: 800px;
+   height: 400px;   
+   
 }
 
 
 .containercito{
     display:grid;
-        
+    border:1px solid rgb(255, 38, 0);
     width:100%;
     max-width:1000px;
     margin: auto;
     text-align:center;
-
+    border:1px solid yellow;
     grid-template-columns:1fr 1fr;
 
 }
@@ -89,3 +92,4 @@ body{
 }
 
 
+ 
