@@ -6,7 +6,6 @@
 }
 
 
-
 body{
     background: black;
     color: #ffffff;
@@ -19,31 +18,46 @@ body{
     color:rgb(255, 255, 255);
     z-index: 2;
     position: relative;
-    border:1px solid rgb(0, 81, 255);
+   
     text-align: center;
     
 }
 
 
+
+.cabeza{
+    background: rgba(255, 255, 255, 0);
+    padding:0;
+    margin-top: -9%;
+    
+    
+}
+
 .container{
     
-    border:1px solid rgb(9, 255, 0);
     position: absolute;
-    margin-left: 30%;
-    width: 800px;
-   height: 400px;   
+    margin-left: 0;
+    width: 99.7%;
+    height: 400px;   
+    margin-top: 0;
+ 
    
+}
+svg{
+    position: relative;
+    background: rgba(94, 18, 18, 0);
+    padding: 0;
 }
 
 
 .containercito{
+   
     display:grid;
-    border:1px solid rgb(255, 38, 0);
+    
     width:100%;
     max-width:1000px;
-    margin: auto;
     text-align:center;
-    border:1px solid yellow;
+  
     grid-template-columns:1fr 1fr;
 
 }
@@ -54,7 +68,7 @@ body{
     margin: auto;
     text-align:center;
     max-width:1000px;
-    
+    margin-top: 1%;
 }
 
 
@@ -74,6 +88,7 @@ body{
     border: 2px solid white;
     cursor:pointer;
     border-radius: 10px;
+    font-size: 20px;
    
 }
 
@@ -89,6 +104,7 @@ body{
 .bay{
     margin-left: 38%;
     margin-top:-2.4%;
+   
 }
 
 
