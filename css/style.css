@@ -171,11 +171,14 @@ h1{
 .subLogo{
     width: 120px;
 height: 120px;
-border: 1px solid blue;
-background: black;
-color: white;
 
+margin-right: 4%;
+
+margin-top:2%;
 margin-left: auto;
 }
 
+.subLogo img{
+    width: 178px;
+}
  
