@@ -92,6 +92,11 @@ svg{
    
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .line{
     border:3px solid white;
     padding:3px;
