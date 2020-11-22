@@ -107,5 +107,27 @@ svg{
    
 }
 
+/* -------------------------------------nosotros.html------------------------------------------- */
+.nosotroC{
+    position:absolute;
+    width: 75%;
+    height: 90%;
+    margin-left: 10%;
+    margin-top:2%;
+
+    background: white;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.maxCoNosotros{
+    border:;
+}
+
+
+
 
  
