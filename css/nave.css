@@ -44,3 +44,31 @@ body{
     cursor: pointer;
     display: none;
 }
+
+
+/* -----------------------JUEGO DE GASOLINA-------------------------- */
+
+canvas {
+    background-color: rgb(0, 0, 0);
+}
+
+   
+.imagenG{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+}
+
+.contenedorGasolina{
+    margin-left: 35%;
+    display: none;
+    
+}
+
+
+
+
+
+
+
+
