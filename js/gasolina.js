@@ -37,7 +37,7 @@ function moverRectangulo(){
             limpiarTablero();
             pintarRectangulo(rect); 
             
-        }, 4)
+        }, 3)
     }
     else{
         clearInterval(interval);
