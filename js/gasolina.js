@@ -17,7 +17,7 @@ var rect = {
     alto: 10
 }
 
-pintarImagenDeFondo();
+
 
 var interval = null;
 
@@ -36,8 +36,8 @@ function moverRectangulo(){
             rect.alto += 0.5;
             limpiarTablero();
             pintarRectangulo(rect); 
-            pintarImagenDeFondo();
-        }, 2)
+            
+        }, 4)
     }
     else{
         clearInterval(interval);
