@@ -1,10 +1,9 @@
-var canvas = document.getElementById("game");
-var ctx = canvas.getContext('2d');
-
+const canvas = document.getElementById("game");
+const ctx = canvas.getContext('2d');
 ctx.fillStyle = "rgb(201,171,36)";
-
-var butFill = document.getElementById("butFill");
+const butFill = document.getElementById("butFill");
 butFill.addEventListener('click', moverRectangulo);
+
 
 
 
@@ -30,6 +29,9 @@ function moverRectangulo(){
                 alert("Tarea completada");
                 clearInterval(interval);
                 interval = null;
+                const gaso = document.getElementById("gasolina")
+                gaso.style.display="none"
+                
             }
 
             rect.posY -= 0.5;
@@ -37,7 +39,11 @@ function moverRectangulo(){
             limpiarTablero();
             pintarRectangulo(rect); 
             
+<<<<<<< HEAD
+        }, 2)
+=======
         }, 4)
+>>>>>>> af067cc301376057b9a649d572cfd98d17088d9a
     }
     else{
         clearInterval(interval);
