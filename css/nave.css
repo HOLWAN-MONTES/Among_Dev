@@ -61,8 +61,18 @@ canvas {
 
 .contenedorGasolina{
     margin-left: 35%;
-   /*  display: none; */
+   display: none; 
+   position: absolute;
+   z-index: 3;
     
+}
+
+.contenedorGas {
+    top: 390px;
+    left: 610px;
+    width: 120px;
+    height: 150px;
+    cursor: pointer;
 }
 
 
