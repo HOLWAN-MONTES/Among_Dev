@@ -1,11 +1,14 @@
 const canvas = document.getElementById("barraCargar");
 const ctx = canvas.getContext('2d');
-ctx.fillStyle = "rgb(40, 136, 214)";
+ctx.fillStyle = "#ffffff";
 const botonpor = document.getElementById("Botonpor");
+botonpor.addEventListener('click', mostrar);
 botonpor.addEventListener('click', moverRectangulo);
 
 
-
+function mostrar (){
+    canvas.style.display ="block";
+}
 
 const LIMITE_CARGA = 60;
 
@@ -65,10 +68,11 @@ function pintarRectangulo({ posX, posY, ancho, alto}){
 
 const getrenametime = deadline => {
     let now = new Date,
-    remainTIme = (new Date(deadline) - now + 90000) / 2,
+    remainTIme = (new Date(deadline) - now - 100000) / 2,
     remainSecons = ('0' +Math.floor(remainTIme % 60)).slice(-2),
     remainMinutes = ('0' +Math.floor(remainTIme / 60 % 60)).slice(-41),
     remainHours = ('0' +Math.floor(remainTIme / 3600 % 24)).slice(-2),
+    remainDays = Math.floor(remainTIme / (3600 * 24));
     remainDays = Math.floor(remainTIme / (3600 * 24));
 
     return {
