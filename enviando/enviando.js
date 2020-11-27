@@ -68,7 +68,7 @@ function pintarRectangulo({ posX, posY, ancho, alto}){
 
 const getrenametime = deadline => {
     let now = new Date,
-    remainTIme = (new Date(deadline) - now - 100000) / 2,
+    remainTIme = (new Date(deadline) - now - 100000)- 5,
     remainSecons = ('0' +Math.floor(remainTIme % 60)).slice(-2),
     remainMinutes = ('0' +Math.floor(remainTIme / 60 % 60)).slice(-41),
     remainHours = ('0' +Math.floor(remainTIme / 3600 % 24)).slice(-2),
@@ -102,4 +102,4 @@ const countdown = (deadline,elem,finalMessage) => {
 };
 
 
-countdown('Nov 29 2020 14:24:38 GMT-0500', 'clock','muchas gracias');
+countdown('Nov 29 20 14:24:38 GMT-0500', 'clock','muchas gracias');
