@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(../imagenes/gasolinaFondo.png);
+    background-size: 100vw 100vh;
+}
+
+
+canvas {
+    background-color: rgb(0, 0, 0);
+}   
+.imagenG{
+    width: 400px;
+    height: 600px;
+    position:absolute;
+}
+
+.contenedorGasolina{
+
+    margin-left: 35%;
+   
+
+}
+
+.contenedorGas {
+    top: 390px;
+    left: 610px;
+    width: 120px;
+    height: 150px;
+    cursor: pointer;
+}

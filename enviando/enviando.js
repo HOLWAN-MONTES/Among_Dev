@@ -1,20 +1,19 @@
-var canvas = document.getElementById("game");
-var ctx = canvas.getContext('2d');
+const canvas = document.getElementById("barraCargar");
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = "rgb(40, 136, 214)";
+const botonpor = document.getElementById("Botonpor");
+botonpor.addEventListener('click', moverRectangulo);
 
-ctx.fillStyle = "rgb(201,171,36)";
-
-var butFill = document.getElementById("butFill");
-butFill.addEventListener('click', moverRectangulo);
 
 
 
 const LIMITE_CARGA = 60;
 
 var rect = {
-    posX: 30,
-    posY: 480,
-    ancho: 300,
-    alto: 10
+    posX: 0,
+    posY: 0,
+    ancho: 500,
+    alto: 20
 }
 
 
@@ -30,14 +29,19 @@ function moverRectangulo(){
                 alert("Tarea completada");
                 clearInterval(interval);
                 interval = null;
+                const carga = document.getElementById("cargar")
+                 /* carga.style.display="none"  */
+                
             }
 
-            rect.posY -= 0.5;
-            rect.alto += 0.5;
-            limpiarTablero();
+            rect.posX += 0.5;
+            rect.ancho -= 0.5;
+            limpiarTablero(LIMITE_CARGA);
             pintarRectangulo(rect); 
             
+
         }, 3)
+
     }
     else{
         clearInterval(interval);
@@ -47,7 +51,7 @@ function moverRectangulo(){
 }
 
 function estaEnElLimite(){
-    return rect.posY <= LIMITE_CARGA;
+    return rect.ancho <= LIMITE_CARGA;
 }
 
 function limpiarTablero(){
@@ -57,6 +61,3 @@ function limpiarTablero(){
 function pintarRectangulo({ posX, posY, ancho, alto}){
     ctx.fillRect(posX, posY, ancho, alto);
 }
-
-
-
