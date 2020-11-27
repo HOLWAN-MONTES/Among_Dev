@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb198b131-5d8a-43a1-92dc-73aef0abec50%2FUntitled.png?table=block&id=41254437-35b1-42e1-bcf9-40a1c2721f8d&width=3840&userId=&cache=v2);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.contenedor{
+    width:70%;
+    height:70%;
+    margin-left:10%;
+    margin-top:5%;
+    background-image: url(../imagenes/numeros.png);
+    background-size: 70vw 70vh;
+    background-repeat: no-repeat;
+    border:2px solid red;
+    position: absolute;
+    
+}
+
+.btn-cerrar{
+    background-color: yellow;
+    width: 10%;
+
+}
+
+.cajasD{
+    border:1px solid rgb(88, 211, 16);
+    color:black;
+    font-size:24px;
+    padding:65px;
+    background-color: rgb(59, 126, 228);
+    cursor:pointer;  
+}
+
+.cajasD:hover{
+    background-color: rgb(11, 105, 245);
+    color: white;
+}
+.cajas{
+    border:2px solid rgb(0, 4, 255);
+    border-radius:4px;
+    margin-top:5.7%;
+    margin-left:6%;
+    width: 87%;
+    background-color: rgb(2, 28, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:6px;
+}
