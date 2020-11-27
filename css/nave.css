@@ -1,3 +1,10 @@
+*{
+    box-sizing: 0;
+    box-shadow: 0;
+    padding: 0;
+    margin:0;
+}
+
 div {
     position: absolute;
 }
@@ -7,17 +14,19 @@ body{
 }
 
 .nave {
-    background-image: url("../imagenes/navefondo.png");
+    background-image: url("https://lh6.googleusercontent.com/bSRCA8hRVqnLyndUXXek_HqulA2ZRuQZ43PkmxwqNXPVA1S2kFjfVoGEO8ee0s6bbGCVp3dxC1VsE3xh3CVuArZlMMiu3RFhx6MCdzDsw6ZzexjRkA=w1280");
     background-repeat: no-repeat;
     background-position: center;
-    width: 99%;
+    width: 60%;
     height: 100%;
     top: 0px;
+    margin-left: 35%;
 }
 
 .zona{
     border: red 1px solid;
     z-index: 2;
+    margin-left: 22%;
 }
 
 .eletricidad {
@@ -45,6 +54,13 @@ body{
     display: none;
 }
 
+.salir{
+    width: 40px;
+    height: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    z-index: 3;
+}
 
 
 

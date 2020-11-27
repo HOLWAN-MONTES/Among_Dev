@@ -1,11 +1,14 @@
 const canvas = document.getElementById("barraCargar");
 const ctx = canvas.getContext('2d');
-ctx.fillStyle = "rgb(40, 136, 214)";
+ctx.fillStyle = "#ffffff";
 const botonpor = document.getElementById("Botonpor");
+botonpor.addEventListener('click', mostrar);
 botonpor.addEventListener('click', moverRectangulo);
 
 
-
+function mostrar (){
+    canvas.style.display ="block";
+}
 
 const LIMITE_CARGA = 60;
 
