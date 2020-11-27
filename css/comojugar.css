@@ -1,0 +1,72 @@
+*{
+    box-sizing: 0;
+    box-shadow: 0;
+    padding: 0;
+    margin:0;
+}
+
+
+body{
+    background: black;
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+.comojugar{
+    position: absolute;
+    width: 75%;
+    height: 90%;
+    margin-left: 12%;
+    margin-top:1%;
+    color:black;
+
+    background: white;
+    border-radius: 20px;
+  
+
+  
+}
+
+h1{
+    font-size: 60px;
+   
+}
+
+.texto {
+    margin-top: -35%;
+    text-align: left;
+
+}
+
+.texto .text{
+    font-size: 40px;
+    color: black;
+    margin-left: 7%;
+}
+
+.cabecera{
+    text-align: center;
+    margin-top: -4%;
+}
+
+.sublogo{
+    width: 10%;
+    height: 20%;
+
+    margin-right: 8%;
+
+    margin-top:29%;
+    margin-left: auto;
+}
+
+.sublogo img{
+    width: 178%;
+}
+
+.salir{
+    width: 40px;
+    height: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
