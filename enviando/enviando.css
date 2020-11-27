@@ -28,7 +28,7 @@ canvas {
 }   
 
 .contenerdorCargar{
-    
+    position: absolute;
     width: 80%;
     display: grid;
     grid-template-columns: 1fr;
@@ -45,4 +45,9 @@ canvas {
     outline: none;
     font-size:25px;
     background-color: transparent;
+}
+
+.clock{
+    font-size: 30px;
+    color:white;
 }
