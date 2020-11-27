@@ -1,0 +1,48 @@
+body{
+    background-image: url(../imagenes/enviandoFondo.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.enviandoF{
+    position:absolute;
+    background-image: url(../imagenes/enviando.png);
+    background-size: 50vw 50vh;
+    background-repeat: no-repeat;
+    width: 50%;
+    
+    height: 310px;
+  
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 20%;
+    
+}
+
+
+canvas {
+    background-color: rgb(196, 191, 191);
+    border-radius: 10px;
+    z-index: 3;
+}   
+
+.contenerdorCargar{
+    
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 27%;
+    margin-left: 14%;
+}
+
+.botonpor{
+    width: 200px;
+    margin-left:20%;
+    cursor:pointer;
+    border: transparent;
+    outline: none;
+    font-size:25px;
+    background-color: transparent;
+}

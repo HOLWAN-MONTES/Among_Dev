@@ -1,8 +1,8 @@
-const canvas = document.getElementById("game");
+const canvas = document.getElementById("barraCargar");
 const ctx = canvas.getContext('2d');
-ctx.fillStyle = "rgb(201,171,36)";
-const butFill = document.getElementById("butFill");
-butFill.addEventListener('click', moverRectangulo);
+ctx.fillStyle = "rgb(40, 136, 214)";
+const botonpor = document.getElementById("Botonpor");
+botonpor.addEventListener('click', moverRectangulo);
 
 
 
@@ -10,10 +10,10 @@ butFill.addEventListener('click', moverRectangulo);
 const LIMITE_CARGA = 60;
 
 var rect = {
-    posX: 30,
-    posY: 480,
-    ancho: 300,
-    alto: 10
+    posX: 0,
+    posY: 0,
+    ancho: 500,
+    alto: 20
 }
 
 
@@ -29,21 +29,19 @@ function moverRectangulo(){
                 alert("Tarea completada");
                 clearInterval(interval);
                 interval = null;
-                const gaso = document.getElementById("gasolina")
-                gaso.style.display="none"
+                const carga = document.getElementById("cargar")
+                 /* carga.style.display="none"  */
                 
             }
 
-            rect.posY -= 0.5;
-            rect.alto += 0.5;
-            limpiarTablero();
+            rect.posX += 0.5;
+            rect.ancho -= 0.5;
+            limpiarTablero(LIMITE_CARGA);
             pintarRectangulo(rect); 
             
-<<<<<<< HEAD
-        }, 2)
-=======
-        }, 4)
->>>>>>> af067cc301376057b9a649d572cfd98d17088d9a
+
+        }, 3)
+
     }
     else{
         clearInterval(interval);
@@ -53,7 +51,7 @@ function moverRectangulo(){
 }
 
 function estaEnElLimite(){
-    return rect.posY <= LIMITE_CARGA;
+    return rect.ancho <= LIMITE_CARGA;
 }
 
 function limpiarTablero(){
@@ -63,6 +61,3 @@ function limpiarTablero(){
 function pintarRectangulo({ posX, posY, ancho, alto}){
     ctx.fillRect(posX, posY, ancho, alto);
 }
-
-
-
