@@ -3,3 +3,28 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+
+.iconos{
+    margin-left: 93.2%;
+    margin-top: 6px;
+
+    
+}
+
+.iconos img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.salida{
+    margin-top: -10%;
+    margin-left: 10%;
+    
+}
+
+.salida img{
+    width: 7%;
+    height: 7%;
+}
