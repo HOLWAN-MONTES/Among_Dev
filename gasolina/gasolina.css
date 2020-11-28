@@ -8,15 +8,30 @@ body{
 canvas {
     background-color: rgb(0, 0, 0);
 }   
+
 .imagenG{
     width: 400px;
     height: 600px;
     position:absolute;
 }
 
+
+.iconos{
+    margin-left: 92%;
+    margin-top: -10px;
+
+    
+}
+
+.iconos img{
+    width: 80%;
+    height: 80%;
+}
+
 .contenedorGasolina{
 
     margin-left: 35%;
+    margin-top: -10%;
    
 
 }
@@ -27,4 +42,23 @@ canvas {
     width: 120px;
     height: 150px;
     cursor: pointer;
+}
+
+.butFill{
+    
+    background: transparent;
+    border-bottom: 0px;
+}
+/* Botones */
+
+
+.salida{
+    margin-top: -41%;
+    margin-left: 30%;
+    
+}
+
+.icono{
+    width: 7%;
+    height: 7%;
 }

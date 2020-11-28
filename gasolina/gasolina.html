@@ -6,16 +6,35 @@
     <link rel="stylesheet" href="gasolina.css">
     <title>gasolina</title>
 </head>
-<body >
+<body>
+
+    <header>
+        <div class="botones">
+            <div class="iconos">
+                <a href="../html/comojugar.html"><img  src="../imagenes/Settings.png" alt="mapa"></a>
+           </div>
+           
+           <div class="iconos">
+                <a href="../html/nave.html"><img src="../imagenes/Map.png" alt="mapa"></a>
+           </div>
+        </div>
+    </header>
   
     <div class="contenedorGasolina" id="gasolina">
 
         <img src="../imagenes/VKDLCPv.png" class="imagenG" alt="">
         <canvas id="game" height="600" width="400">
         </canvas>
-        <button id="butFill"> Llenar </button>
+        
+        <button id="butFill" class="butFill"><img src="../imagenes/Gasoline.png" alt="Gasoline"></button>
         
     </div>
+
+    <div class="salida">
+        <a href="../html/nave.html"><img class="icono" src="../imagenes/Exit.png" alt="salir"></a>
+    </div>
+    
+    
     <script src="gasolina.js"></script>
 </body>
 </html>
