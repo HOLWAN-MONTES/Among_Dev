@@ -32,40 +32,75 @@ body{
 }
 
 
-.eletricidad {
+.seguridad {
     top: 350px;
     left: 110px;
     width: 70px;
     height: 100px;
     cursor: pointer;
     
-   
 }
 
-.juego {
-    top: 350px;
-    left: 400px;
-    width: 50px;
-    height: 50px;
+.numeros{
     
+    top: 350px;
+    left: 110px;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    border: rgb(229, 255, 0) 1px solid;
+    z-index: 2;
+    margin-left: 14.7%;
+    margin-top: -5%;
+    text-align: center;
+    padding: 40px 10px;
 }
-
-.reactor{
-    top: -300px;
-    left: -560px;
+.electricidad{
+    top: 350px;
+    left: 110px;
     width: 70px;
     height: 100px;
     cursor: pointer;
-}
-.correcto {
-    width: 50px;
-    height: 50px;
-    top: -250px;
-    cursor: pointer;
-    left: -520%;
-    
+    border: rgb(0, 4, 255) 1px solid;
+    z-index: 2;
+    margin-left: 33.4%;
+    margin-top: -0.5%;
 }
 
+.administrar{
+    top: 350px;
+    left: 110px;
+    width: 60px;
+    height: 65px;
+    cursor: pointer;
+    border: rgb(123, 255, 0) 1px solid;
+    z-index: 2;
+    margin-left: 52%;
+    margin-top: 2%;
+}
+.gasolina{
+    top: 350px;
+    left: 110px;
+    width: 60px;
+    height: 65px;
+    cursor: pointer;
+    border: rgb(255, 0, 179) 1px solid;
+    z-index: 2;
+    margin-left: 41%;
+    margin-top: 2.5%;
+}
+
+.zonaN{
+    top: 350px;
+    left: 110px;
+    width: 60px;
+    height: 65px;
+    cursor: pointer;
+    border: rgb(238, 255, 0) 1px solid;
+    z-index: 2;
+    margin-left: 45.5%;
+    margin-top: -1%;
+}
 .salir{
     width: 40px;
     height: 40px;
