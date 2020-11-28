@@ -20,15 +20,17 @@ body{
     width: 60%;
     height: 100%;
     top: 0px;
-    margin-left: 35%;
+    margin-left: 40%;
     left: -300px;
 }
 
 .zona{
     border: red 1px solid;
     z-index: 2;
-    margin-left: 22%;
+    margin-left: 23%;
+    margin-top: -4%;
 }
+
 
 .eletricidad {
     top: 350px;
@@ -49,8 +51,8 @@ body{
 }
 
 .reactor{
-    top: -80px;
-    left: -550px;
+    top: -300px;
+    left: -560px;
     width: 70px;
     height: 100px;
     cursor: pointer;
@@ -58,9 +60,9 @@ body{
 .correcto {
     width: 50px;
     height: 50px;
-    top: -30px;
-    left: -100px;
+    top: -250px;
     cursor: pointer;
+    left: -520%;
     
 }
 
@@ -72,18 +74,6 @@ body{
     z-index: 3;
 }
 
-
-
-
-
-
-.hola2{
-    border:3px solid blue;
-    width:200px;
-    height: 400px;
-    padding:100px;
-    margin-top:12%;
-}
 
 
 
