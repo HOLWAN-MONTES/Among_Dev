@@ -55,5 +55,6 @@ body{
 }
 
 .draggable{
-    border: 1px solid red;
+    border: 1px solid transparent;
+    background-color: transparent;
 }
