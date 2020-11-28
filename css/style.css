@@ -15,7 +15,7 @@ body{
 
 .titulo{
     margin-left: -5%;
-    margin-top: -23%;
+    margin-top: -10%;
     width: 110%;
     height: 70%;
    
@@ -63,7 +63,7 @@ svg{
     margin: auto;
     text-align:center;
     max-width:1000px;
-    margin-top: 1%;
+    margin-top: -7%;
 }
 
 
@@ -163,7 +163,7 @@ h1{
 }
 
 .segundob{
-    margin-top: 8%;
+    margin-top: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 25px;
