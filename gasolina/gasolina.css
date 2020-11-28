@@ -17,14 +17,15 @@ canvas {
 
 
 .iconos{
-    margin-left: 92%;
-    margin-top: -10px;
+    margin-left: 93.1%;
+    margin-top: -11px;
+    padding: 1px 1px;
 
     
 }
 
 .iconos img{
-    width: 80%;
+    width: 100%;
     height: 80%;
 }
 
@@ -48,6 +49,7 @@ canvas {
     
     background: transparent;
     border-bottom: 0px;
+    cursor: pointer;
 }
 /* Botones */
 
