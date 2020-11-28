@@ -29,7 +29,6 @@ body{
 .container{
     
     margin-left: 7%;
-    border:1px solid rgb(51, 99, 172); 
     width: 70%;
     height: 600px;
 }
@@ -43,7 +42,6 @@ body{
    
     margin-left: auto;
     margin-right: auto;
-    border:1px solid rgb(185, 4, 4); 
 }
 .encima{
     background-image: url(../imagenes/encima.png);
@@ -57,4 +55,5 @@ body{
 .draggable{
     border: 1px solid transparent;
     background-color: transparent;
+    margin-top: 11%;
 }
