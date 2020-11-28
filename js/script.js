@@ -1,7 +1,7 @@
 Swal.fire({
     title: "¡Bienvenido!",
-    title:'proyecto etapa °2 DevsHouse',
-    text:'Esta pagina web ha sido creada con el fin de ilustrar algunas tareas del video juego Among Us.',
+    title:'Esta pagina web ha sido creada con el fin de ilustrar algunas tareas del video juego Among Us.',
+    text:'proyecto etapa °2 DevsHouse',
     confirmButtonText: 'Cerrar',
     imageUrl: '../imagenes/logo.png',
     imageWidth: 400,
