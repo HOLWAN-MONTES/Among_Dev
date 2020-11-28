@@ -67,6 +67,13 @@ body{
 
 
 
+.hola2{
+    border:3px solid blue;
+    width:200px;
+    height: 400px;
+    padding:100px;
+    margin-top:12%;
+}
 
 
 
