@@ -31,7 +31,7 @@ function moverRectangulo(){
         interval = setInterval(function(){
 
             if(estaEnElLimite()){
-               
+               alert('Tarea completada');
                 clearInterval(interval);
                 interval = null;
                 const carga = document.getElementById("cargar")
