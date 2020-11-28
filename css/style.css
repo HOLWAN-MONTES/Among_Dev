@@ -200,10 +200,42 @@ h1{
     margin-left: 2%;
     margin-top: 2%;
 }
-
+/*--------------------------------------pie de pagina*/
 footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color:rgb(158, 154, 154);
+    background-color: rgb(27, 25, 25);
+    border-top:solid 2px white;
+}
+
+.footer-contenerdor{
+    display: flex;
+}
+
+.caja1{
+    width: 70%;
+    display: flex;
+}
+.caja1 img{
+    width: 7%;
+    margin-left: 15px;
+}
+.caja1 h2{
+    margin-top:2%;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.texto{
+    font-size: 35px;
+    margin-left:49% ;
+}
+.social{
+    width: 20%;
+    margin-left: 250px;
+}
+.social img{
+    margin-top: 15px;
+    margin-left: 30px;
 }
