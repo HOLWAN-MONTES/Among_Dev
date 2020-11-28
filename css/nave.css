@@ -14,13 +14,14 @@ body{
 }
 
 .nave {
-    background-image: url("../imagenes/nave.png");
+    background-image: url("../imagenes/navefondo.png");
     background-repeat: no-repeat;
     background-position: center;
     width: 60%;
     height: 100%;
     top: 0px;
     margin-left: 35%;
+    left: -300px;
 }
 
 .zona{
@@ -31,7 +32,7 @@ body{
 
 .eletricidad {
     top: 350px;
-    left: 510px;
+    left: 110px;
     width: 70px;
     height: 100px;
     cursor: pointer;
@@ -40,18 +41,27 @@ body{
 }
 
 .juego {
-    top: 10px;
-    left: 450px;
-    display: none;
+    top: 350px;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    
 }
 
+.reactor{
+    top: -80px;
+    left: -550px;
+    width: 70px;
+    height: 100px;
+    cursor: pointer;
+}
 .correcto {
     width: 50px;
     height: 50px;
-    top: 370px;
-    left: 860px;
+    top: -30px;
+    left: -100px;
     cursor: pointer;
-    display: none;
+    
 }
 
 .salir{
