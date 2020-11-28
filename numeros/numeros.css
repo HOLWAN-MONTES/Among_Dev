@@ -17,10 +17,34 @@ body{
     
 }
 
-.btn-cerrar{
-    background-color: yellow;
-    width: 10%;
 
+.iconos{
+    margin-left: 93.2%;
+    margin-top: -10px;
+
+    
+}
+
+.iconos img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.salida{
+    margin-top: -12%;
+    margin-left: 5%;
+    
+}
+
+.salida img{
+    width: 6%;
+    height: 6%;
+}
+
+.contenedor{
+    margin-top: -1%;
+    border-color: rgb(255, 0, 0);
 }
 
 .cajasD{
