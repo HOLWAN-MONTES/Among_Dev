@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff0ea4653-8853-46b4-addf-45e293711de1%2FUntitled.png?table=block&id=3ba58cb5-40b9-468d-9368-b19e755688f0&width=3840&userId=&cache=v2);
+    background-size: 230vh 100vw;
+    
+    background-repeat: no-repeat;
+}
+
+
+.draggable {
+    width: 190px; 
+    height: 90px;
+    padding: 0.5em;
+    float: left; 
+    margin: 0 10px 10px 0; 
+    border:1px solid red;
+}
+
+
+#containment-wrapper{ 
+    
+   margin-top:21%;
+   margin-left:-79%;
+    width: 180%;
+    height:100px; 
+    
+    padding: 0px;
+}
+
+.container{
+    
+    margin-left: 7%;
+    border:1px solid rgb(51, 99, 172); 
+    width: 70%;
+    height: 600px;
+}
+.imagenC{
+    background-image: url(../imagenes/targeta.png);
+   
+
+    width: 50%;
+    height: 455px;
+    margin-top: 6%;
+   
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid rgb(185, 4, 4); 
+}
+.encima{
+    background-image: url(../imagenes/encima.png);
+    width: 34.4%;
+    height: 155px;
+    z-index: 3;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.draggable{
+    border: 1px solid red;
+}
